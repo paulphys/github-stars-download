@@ -1,6 +1,6 @@
 #!/bin/bash
  
-user="your-username"
+user="$1"
 pages=$(curl -I https://api.github.com/users/$user/starred | sed -nr 's/^link:.*page=([0-9]+).*/\1/p')
 
 for page in $(seq 1 $pages); do
