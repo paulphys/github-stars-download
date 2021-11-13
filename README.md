@@ -7,7 +7,7 @@
 Download the script
 
 ```bash
-curl -LO baul.ml/getstars.sh
+curl -LO physics.sh/getstars.sh
 ```
 
 Give permission
